@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RubyGettingStarted</title>
+  <title>CMI Sales Philippines</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <style>
+  	#banner{
+  		background-color: #258E5F;
+  		color: #E1F6ED;
+  		height:120px;
+  		padding-top:10px;
+  		text-align: center;
+  	}
+
+  	#footer{
+  		position:absolute;
+      bottom:0px;
+      background-color: #258E5F;
+      color: #E1F6ED;
+      height:30px;
+      padding-top:10px;
+      text-align: center;
+      width:98%;
+  	}
+
 </head>
 <body>
 
+<div id="banner">
+	<h1 style="font-size:4em">Appliance Sales and Recording System</h1>
+</div>
+
 <%= yield %>
+
+<div id="footer" align="center">by Triste</div>
 
 </body>
 </html>
