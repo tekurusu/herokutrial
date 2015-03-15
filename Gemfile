@@ -31,6 +31,7 @@ gem 'spring',        group: :development
 
 gem 'puma'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
